@@ -29,6 +29,9 @@
       </ul>
     </nav>
     <main>
+    <div>
+    <%= flash.now[:notice] %>
+    </div>
     <%= yield %>
     </main>
     
